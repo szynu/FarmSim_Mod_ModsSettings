@@ -1,0 +1,82 @@
+<modDesc descVersion="71">
+<author>KRKZ-modding</author>
+<version>1.2.0.0</version>
+<iconFilename>icon_S2020Series.dds</iconFilename>
+<multiplayer supported="true"/>
+<storeItems>
+<storeItem xmlFilename="data/series5700S.xml"/>
+<storeItem xmlFilename="data/series6700S.xml"/>
+<storeItem xmlFilename="data/series7700S_SC.xml"/>
+</storeItems>
+<vehicleTypes>
+<type name="MF5700S" parent="baseDrivable" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+<specialization name="cover"/>
+<specialization name="trailer"/>
+<specialization name="fillVolume"/>
+<specialization name="foldable"/>
+<specialization name="dischargeable"/>
+</type>
+</vehicleTypes>
+<title>
+<en>Massey Ferguson S Series 2020</en>
+</title>
+<description>
+<en>
+<![CDATA[ Massey Ferguson S Series 2020 **MF 5700S: - Base Price 85.000$ - Motor Configurations: 5710 S - 100 HP 5711 S - 170 HP 5712 S - 120 HP 5713 S - 250 HP **MF 6700S: - Base Price 110.000$ - Motor Configurations: 6713 S - 150 HP 6714 S - 160 HP 6715 S - 175 HP 6716 S - 185 HP 6718 S - 200 HP **MF 7700S: - Base Price 145.000$ - Motor Configurations: 7715 S - 175 HP 7716 S - 185 HP 7718 S - 210 HP 7719 S - 220 HP - Specifications: Main and design color option. Rim color option. Front weight and front 3 point hanger option. New generation GPS and GPS infrastructure option.(In roof option.) Wheel Offset option. Joystick and shuttle animation. Left door and rear window animation. Transparent grids. - Tire Configurations: Trelleborg Michelin Mitas Continental Vredestein Nokian Changelog 1.2.0.0: - Added new tractor. (MF 7700S Small Chassis) - Small details has been added. (MF 5700S, MF 6700S, MF 7700S SC) - Grid bugs has been fixed. (MF 6700S) - The front axle is now movable. (MF 6700S) - Dyna6 has been removed. Now DynaVT. (MF 6700S) - Chassis color has been changed. ]]>
+</en>
+<de>
+<![CDATA[ Massey Ferguson S Series 2020 **MF 5700S: - Basispreis 85.000€ - Motorkonfigurationen: 5710 S - 100 PS 5711 S - 110 PS 5712 S - 170 PS 5713 S - 250 PS **MF 6700S: - Basispreis 110.000€ - Motorkonfigurationen: 6713 S - 150 PS 6714 S - 160 PS 6715 S - 175 PS 6716 S - 185 PS 6718 S - 200 PS **MF 7700S: - Basispreis 145.000€ - Motorkonfigurationen: 7715 S - 175 PS 7716 S - 185 PS 7718 S - 210 PS 7719 S - 220 PS - Spezifikationen: Haupt- und Designfarboption. Wahl der Felgenfarbe. Option Frontgewicht und vordere 3-Punkt-Aufhängung. GPS- und GPS-Infrastrukturoption der neuen Generation.(In der Dachoption.) Radversatz-Option. Joystick- und Shuttle-Animation. Animation der linken Tür und der Heckscheibe. Transparente Gitter. - Reifenkonfigurationen Trelleborg Michelin Mitas Continental Vredestein Nokian Changelog 1.2.0.0: - Neuer Traktor wurde hinzugefügt. (MF 7700S Kleines Chassis) - Kleine Details wurden hinzugefügt. (MF 5700S, MF 6700S, MF 7700S SC) - Gitter-Bugs wurde behoben. (MF 6700S) - Die Vorderachse ist jetzt beweglich. (MF 6700S) - Dyna6 wurde entfernt. Jetzt DynaVT. (MF 6700S) - Fahrgestellfarbe wurde geändert. ]]>
+</de>
+<fr>
+<![CDATA[ Massey Ferguson S Series 2020 **MF 5700S: - Prix de base 85.000€ - Configurations de moteurs: 5710 S - 100 CV 5711 S - 110 CV 5712 S - 170 CV 5713 S - 250 CV **MF 6700S: - Prix de base 110.000€ - Configurations de moteurs: 6713 S - 150 CV 6714 S - 160 CV 6715 S - 175 CV 6716 S - 185 CV 6718 S - 200 CV **MF 7700S: - Prix de base 145.000€ - Configurations de moteurs: 7715 S - 175 CV 7716 S - 185 CV 7718 S - 210 CV 7719 S - 220 CV - Caractéristiques: Option de couleur principale et de conception. Option de couleur de jante. Option poids avant et suspension avant 3 points. Option GPS et infrastructure GPS nouvelle génération.(En option toit.) Option de décalage de roue. Animation du joystick et de la navette. Animation porte gauche et lunette arrière. Grilles transparentes. - Configurations des pneus: Trelleborg Michelin Mitas Continental Vredestein Nokian Changelog 1.2.0.0: - Ajout d'un nouvel article de magasin. (Petit châssis MF 7700S) - Petits détails ajoutés. (MF 5700S, MF 6700S, MF 7700S SC) - Bogues de grille corrigés. (MF 6700S) - L'essieu avant est maintenant mobile. (MF 6700S) - Dyna6 a été supprimé. Maintenant DynaVT. (MF 6700S) - La couleur du châssis a été modifiée. ]]>
+</fr>
+</description>
+<l10n>
+<text name="configuration_default">
+<en>Default Roof</en>
+<de>Standarddach</de>
+<fr>Toit par défaut</fr>
+<tr>Standart Tavan</tr>
+</text>
+<text name="configuration_defaultWithGPSinf">
+<en>GPS Infrastructure Roof</en>
+<de>GPS-Infrastrukturdach</de>
+<fr>Toit de l'infrastructure GPS</fr>
+<tr>GPS Altyapılı Tavan</tr>
+</text>
+<text name="configuration_defaultWithGPS">
+<en>Roof with GPS</en>
+<de>Dach mit GPS</de>
+<fr>Toit avec GPS</fr>
+<tr>GPS'li Tavan</tr>
+</text>
+<text name="configuration_panoramic">
+<en>Panoramic Roof</en>
+<de>Panoramadach</de>
+<fr>Toit panoramique</fr>
+<tr>Panoramik Tavan</tr>
+</text>
+<text name="configuration_front3Point">
+<en>Front Hydraulic</en>
+<de>Fronthydraulik</de>
+<fr>Hydraulique avant</fr>
+<tr>Ön 3 Nokta Askı Sistemi</tr>
+</text>
+<text name="transmission_dyna6">
+<en>Dyna 6</en>
+<de>Dyna 6</de>
+<fr>Dyna 6</fr>
+</text>
+<text name="configuration_datatronicScreen">
+<en>Datatronic Screen</en>
+<de>Datatronic-Bildschirm</de>
+<fr>Écran Datatronique</fr>
+<tr>Datatronik Ekran</tr>
+</text>
+<text name="configuration_wheelOffset">
+<en>Wheel Offset</en>
+<de>Radversatz</de>
+<fr>Décalage des roues</fr>
+</text>
+</l10n>
+</modDesc>
